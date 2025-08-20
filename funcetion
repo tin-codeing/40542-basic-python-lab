@@ -1,0 +1,12 @@
+def call():
+    number1 = 20
+    number2 = 20
+    print(number1 + number2)
+
+def cal(number):
+    number3 = number + 30
+    print(number3)
+
+call()
+call()
+cal(20)
