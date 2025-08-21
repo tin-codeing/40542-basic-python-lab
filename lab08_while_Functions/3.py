@@ -1,9 +1,11 @@
-n = int(input("Enter_a_number: "))
-limit = int(input("Enter_a_number: "))
+n = int(input("Enter_a_number_n: "))
+limit = int(input("Enter_a_number_limit: "))
 
+i = 1
 
-def x():
-    print(".")
+def doingsomething():
+    print(n,"x",limit,"=",n*i)
 
-for n in range(limit):
-    x()
+while i <= limit:
+    doingsomething()
+    i += 1
